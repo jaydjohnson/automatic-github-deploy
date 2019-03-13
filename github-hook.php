@@ -15,7 +15,7 @@
 
 // Initalize:
 require_once('log.php');
-require_once('bitbucket.php');
+require_once('github.php');
 
 // Load config:
 include('config.php');
