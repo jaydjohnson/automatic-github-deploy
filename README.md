@@ -26,3 +26,5 @@ Version 0.1.0 Last changes 2018.03.29
 You will need to set up a Deploy Key on the server add it to your repository.
 
 Also you must set up an environment variable [GIT_TOKEN](https://developer.github.com/webhooks/securing/) which will help secure your webhook.
+
+In your Github Repository settings, set your hooks Payload URL to point to github-hook.php.  You should probably also rename this file to something unique.
